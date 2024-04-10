@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agount Aventura</title>
+    <link rel="icon" href="/img/icons/dice.png">
+    <link rel="stylesheet" href="/css/forms.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="/index.html">
+                <img src="/img/icons/logo-removebg-preview.png" alt="Logo" class="logo">   
+            </a>
+        </header>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="/seasons.html">Gerações</a></li>
+                <li><a href="/characters.html">Personagens</a></li>
+                <li><a href="/forms.html">Sugestões</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Sugestões de NPCs</h1>
+            <h2>Envie sua sugestão de NPC</h2>
+            <form action="/forms.php" method="post">
+                <fieldset>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="age">Idade:</label>
+                    <input type="number" id="age" name="age" min="1" required>
+                    <label for="class">Classe:</label>
+                    <input type="text" id="class" name="class" required>
+                    <label for="race">Raça:</label>
+                    <input type="text" id="race" name="race" required>
+                    <label for=""history>Historia:</label>
+                    <textarea name="history" id="history" cols="30" rows="10" required></textarea><br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+        </main>
+        <aside>
+            <h3>O sistema</h3>
+            <img src="/img/sistema.jpg" alt="3D&T" class="system-logo">
+            <article>Agount, a Aventura é jogado no sistema 3D&T com diversas modificações efetuadas pelo mestre. Em breve você podera adquirir um livro com todas as regras, classes e raças atualizadas.</article>
+        </aside>
+        <footer class="footer">
+            <a href="https://www.flaticon.com/free-icons/blockchain" title="blockchain icons">Blockchain icons created by Irfansusanto20 - Flaticon</a>
+        </footer>
+      </div>
+</body>
+</html>
